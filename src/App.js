@@ -25,7 +25,7 @@ function App() {
 				<Navbar />
 
 				<Switch>
-     			   	
+					<Route path="/troy" exact component={HomePage} />
 					<Route path="/" exact component={HomePage} />
 					<Route path="/products" exact component={Products} />
 					<Route path="/blog" exact component={Blog} />
