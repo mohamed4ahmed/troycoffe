@@ -177,7 +177,7 @@ export  const products = {
 				},
 				{
 					cardTitle: "Cinnamon Milk",
-					img: erfaHalep.jpg,
+					img: erfaHalep,
 					description: "15.00 LE",
 
 					urlLinkBtn: "/products",
