@@ -90,7 +90,7 @@ const InfoSecRegisterMember = ({
 										value={dob}
 										onChange={({ target }) => setDob(target.value)}
 									/>
-									<FormLabel htmlFor="">Sex:</FormLabel>
+									<FormLabel htmlFor="">Gender:</FormLabel>
 									<FormSelect
 										value={sex}
 										onChange={({ target }) => setSex(target.value)}
@@ -98,7 +98,6 @@ const InfoSecRegisterMember = ({
 										<FormSelectOption>Choose your gender</FormSelectOption>
 										<FormSelectOption>male</FormSelectOption>
 										<FormSelectOption>Female</FormSelectOption>
-										<FormSelectOption>Other</FormSelectOption>
 									</FormSelect>
 									<FormLabel htmlFor="">Email:</FormLabel>
 									<FormInput

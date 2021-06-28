@@ -15,7 +15,7 @@ import { Maps } from "../Stores/Data";
 
 const HomePage = () => {
 	useEffect(() => {
-		document.title = "TROY Caffe";
+		document.title = "Home TROY Coffe & Tea ";
 	}, []);
 
 	return (

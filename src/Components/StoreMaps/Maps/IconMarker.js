@@ -1,5 +1,5 @@
 import L from "leaflet";
-import LogoCircle from "../../../assets/img/logo-circle.png";
+import LogoCircle from "../../../assets/img/logo-web-white.png";
 
 const iconTroy = new L.Icon({
 	iconUrl: LogoCircle,

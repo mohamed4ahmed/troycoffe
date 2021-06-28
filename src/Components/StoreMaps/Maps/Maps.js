@@ -1,24 +1,17 @@
 import React from "react";
-// import {
-// 	MapContainer  as LeafletMap,
-// 	TileLayer,
-// 	Marker,
-// 	Popup,
-// 	Tooltip,
-// } from "react-leaflet";
+import { MapContainer as LeafletMap, TileLayer, Marker, Popup ,Tooltip } from 'react-leaflet';
 import "./Maps.css";
-// import "leaflet/dist/leaflet.css";
-// import { iconTroy } from "./IconMarker";
+import "leaflet/dist/leaflet.css";
+import { iconTroy } from "./IconMarker";
 import logoImg from "../../../assets/img/IMG-20210617-WA0068.jpg";
 
 const Map = () => {
 
-	// const position = [30.973911,31.182105];
-	// const zoom = 18;
+	const position = [30.973911,31.182105];
+	const zoom = 18;
 	return (
 		<div className="map">
-			<img src={logoImg} alt="Logo" className="img"/>
-			{/* <LeafletMap center={position} zoom={zoom}>
+			<LeafletMap center={position} zoom={zoom}>
 				<TileLayer
 					attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 					url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -40,7 +33,7 @@ const Map = () => {
 					</Popup>
 					<Tooltip>TROY Coffee  Tea</Tooltip>
 				</Marker>
-			</LeafletMap> */}
+			</LeafletMap>
 		</div>
 	);
 };
