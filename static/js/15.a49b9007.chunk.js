@@ -1,0 +1,2 @@
+(this["webpackJsonpwebsite-1"]=this["webpackJsonpwebsite-1"]||[]).push([[15],{94:function(e,t,c){"use strict";c.r(t);var o=c(1),s=c(2);t.default=function(){return Object(o.useEffect)((function(){document.title="Our stores - TROY - Coffee & Tea",window.location="https://www.facebook.com/TROYcafeee"}),[]),Object(s.jsx)(s.Fragment,{})}}}]);
+//# sourceMappingURL=15.a49b9007.chunk.js.map
