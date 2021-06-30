@@ -20,8 +20,8 @@ import {
 
 import { FaStar } from "react-icons/fa";
 
-// import { firebase } from "../../lib/firebase";
-// import { getUUID } from "../../utils";
+import { db } from "../../firebase/firebase";
+import { getUUID } from "../../utils";
 
 const InfoSecFeedback = ({
 	lightBg,
@@ -46,24 +46,23 @@ const InfoSecFeedback = ({
 	const handleFormSubmit = (event) => {
 		event.preventDefault();
 
-		// firebase
-		// 	.firestore()
-		// 	.collection("feedback")
-		// 	.add({
-		// 		id: getUUID(),
-		// 		dateCreate: new Date(),
-		// 		star: star,
-		// 		category: category,
-		// 		review: review,
-		// 		emailAddress: emailAddress,
-		// 	})
-		// 	.then(function () {
-		// 		alert("Thank you for comment.");
-		// 		window.location = "/";
-		// 	})
-		// 	.catch(function (error) {
-		// 		console.error("Error writing document: ", error);
-		// 	});
+		db
+			.collection("feedback")
+			.add({
+				id: getUUID(),
+				dateCreate: new Date(),
+				star: star,
+				category: category,
+				review: review,
+				emailAddress: emailAddress,
+			})
+			.then(function () {
+				alert("Thank you for comment.");
+				window.location = "/";
+			})
+			.catch(function (error) {
+				console.error("Error writing document: ", error);
+			});
 	};
 
 	const isInvalid = category === "" || review === "" || star === "";

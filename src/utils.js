@@ -1,5 +1,5 @@
 export function phoneNumber(input) {
-	const phoneNo = /^\d{10}$/;
+	const phoneNo = /^\d{11}$/;
 	if (input.value.match(phoneNo)) {
 		return true;
 	} else {

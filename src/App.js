@@ -11,8 +11,8 @@ const Products = React.lazy(() => import("./pages/Products/Products"));
 const About = React.lazy(() => import("./pages/About/About"));
 const Blog = React.lazy(() => import("./pages/Blog/Blog"));
 const Stores = React.lazy(() => import("./pages/Stores/Stores"));
-// const Grab = React.lazy(() => import("./pages/Grab/Grab"));
-// const Loship = React.lazy(() => import("./pages/Loship/Loship"));
+const Grab = React.lazy(() => import("./pages/Grab/Grab"));
+const Loship = React.lazy(() => import("./pages/Loship/Loship"));
 const Membership = React.lazy(() => import("./pages/Membership/Membership"));
 const Feedback = React.lazy(() => import("./pages/Feedback/Feedback"));
 
@@ -31,8 +31,8 @@ function App() {
 					<Route path="/blog" exact component={Blog} />
 					<Route path="/stores" exact component={Stores} />
 					<Route path="/about" exact component={About} />
-					{/* <Route path="/grab" exact component={Grab} />
-					<Route path="/loship" exact component={Loship} /> */}
+					<Route path="/grab" exact component={Grab} />
+					<Route path="/loship" exact component={Loship} />
 					<Route path="/membership" exact component={Membership} />
 					<Route path="/feedback" exact component={Feedback} />
 					<Route component={NotFound} />

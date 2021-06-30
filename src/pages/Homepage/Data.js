@@ -58,7 +58,7 @@ export const special = {
 				trend: true,
 			},
 			{
-				cardTitle: "Espresso Double",
+				cardTitle: "Double Espresso",
 				img: espressoDouble,
 				description: "15.00 LE",
 

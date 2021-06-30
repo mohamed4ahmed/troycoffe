@@ -19,7 +19,7 @@ const Footer = () => {
 		<FooterContainer>
 			<SocialMedia>
 				<SocialMediaWrap>
-					<SocialLogo to="/">
+					<SocialLogo to="/troy">
 						<LogoImg src={logoImg} alt="logo" />
 					</SocialLogo>
 					<WebsiteRights>

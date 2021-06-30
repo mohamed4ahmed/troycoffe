@@ -16,8 +16,8 @@ import {
 	FormSelectOption,
 } from "./InfoSecRegisterMember-style";
 
-// import { firebase } from "../../lib/firebase";
-// import { getUUID } from "../../utils";
+import { db } from "../../firebase/firebase";
+import { getUUID } from "../../utils";
 
 const InfoSecRegisterMember = ({
 	lightBg,
@@ -35,30 +35,29 @@ const InfoSecRegisterMember = ({
 	const [name, setName] = useState("");
 	const [emailAddress, setEmailAddress] = useState("");
 	const [dob, setDob] = useState("");
-	const [sex, setSex] = useState("");
+	const [gender, setGender] = useState("");
 
 	const handleFormSubmit = (event) => {
 		event.preventDefault();
 
-		// firebase
-		// 	.firestore()
-		// 	.collection("members")
-		// 	.add({
-		// 		id: getUUID(),
-		// 		dateCreate: new Date(),
-		// 		phoneNumber: phoneNumber,
-		// 		name: name,
-		// 		emailAddress: emailAddress,
-		// 		dob: dob,
-		// 		sex: sex,
-		// 	})
-		// 	.then(function () {
-		// 		alert("Member registration is successful.");
-		// 		window.location = "/";
-		// 	})
-		// 	.catch(function (error) {
-		// 		console.error("Error writing document: ", error);
-		// 	});
+		db
+			.collection("members")
+			.add({
+				id: getUUID(),
+				dateCreate: new Date(),
+				phoneNumber: phoneNumber,
+				name: name,
+				emailAddress: emailAddress,
+				dob: dob,
+				gender: gender,
+			})
+			.then(function () {
+				alert("Member registration is successful.");
+				window.location = "/";
+			})
+			.catch(function (error) {
+				console.error("Error writing document: ", error);
+			});
 	};
 
 	const isInvalid =
@@ -66,7 +65,7 @@ const InfoSecRegisterMember = ({
 		name === "" ||
 		emailAddress === "" ||
 		dob === "" ||
-		sex === "";
+		gender === "";
 
 	return (
 		<>
@@ -92,8 +91,8 @@ const InfoSecRegisterMember = ({
 									/>
 									<FormLabel htmlFor="">Gender:</FormLabel>
 									<FormSelect
-										value={sex}
-										onChange={({ target }) => setSex(target.value)}
+										value={gender}
+										onChange={({ target }) => setGender(target.value)}
 									>
 										<FormSelectOption>Choose your gender</FormSelectOption>
 										<FormSelectOption>male</FormSelectOption>
