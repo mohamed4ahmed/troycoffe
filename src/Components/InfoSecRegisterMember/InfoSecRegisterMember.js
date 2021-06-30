@@ -53,7 +53,7 @@ const InfoSecRegisterMember = ({
 			})
 			.then(function () {
 				alert("Member registration is successful.");
-				window.location = "/";
+				window.location = "/troy";
 			})
 			.catch(function (error) {
 				console.error("Error writing document: ", error);

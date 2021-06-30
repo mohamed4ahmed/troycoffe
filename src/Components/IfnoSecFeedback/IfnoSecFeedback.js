@@ -58,7 +58,7 @@ const InfoSecFeedback = ({
 			})
 			.then(function () {
 				alert("Thank you for comment.");
-				window.location = "/";
+				window.location = "/troy";
 			})
 			.catch(function (error) {
 				console.error("Error writing document: ", error);
