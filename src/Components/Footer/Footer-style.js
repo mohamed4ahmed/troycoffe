@@ -67,13 +67,8 @@ export const WebsiteRightsText = styled.small`
 export const Mohamed = styled.a`
 	color: #fff;
 	text-decoration: none;
-	border-radius: 20px;
-	-webkit-box-shadow: -1px -1px 68px -9px rgba(255, 255, 255, 1);
-	-moz-box-shadow: -1px -1px 68px -9px rgba(255, 255, 255, 1);
-	box-shadow: -1px -1px 68px -9px rgba(255, 255, 255, 1);
-
-	padding: 1rem;
-	margin-top: 16px;
+	border:0.5px  255, 255, 255, 1;
+    box-shadow: 0 0 10px #719ECE;
 	&:hover {
 		color: #0467fb;
 		transition: 0.3s ease-out;
@@ -90,13 +85,8 @@ export const SocialIcons = styled.div`
 export const SocialIconLink = styled.a`
 	color: #fff;
 	font-size: 24px;
-	margin-left: 15px;
-	border-radius: 20px;
-	-webkit-box-shadow: -1px -1px 68px -9px rgba(255, 255, 255, 1);
-	box-shadow: -1px -1px 68px -9px rgba(255, 255, 255, 1);
-	-moz-box-shadow: -1px -1px 68px -9px rgba(255, 255, 255, 1);
-	padding: 0.25rem;
-
+	margin-left: 10px;
+    box-shadow: 0 5px  #719ECE;
     &:hover {
 		color: #0467fb;
 		transition: 0.3s ease-out;

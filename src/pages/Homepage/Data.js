@@ -14,7 +14,7 @@ export const hero = {
 	lightTextDesc: true,
 	headline: "TROY ",
 	description: "Coffee & Tea",
-	buttonLabel: "Product",
+	buttonLabel: "MENU",
 	urlLinkBtn: "/products",
 	urlImg: webp,
 };

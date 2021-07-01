@@ -1,7 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "react-lazy-load-image-component/src/effects/blur.css";
-
+import { FaMapMarkedAlt } from "react-icons/fa";
 import { FaAngellist } from "react-icons/fa";
 import { AiOutlineLike } from "react-icons/ai";
 import {
@@ -42,9 +41,9 @@ const Product = ({
 				</CardImage>
 				<CardTitle lightTextCard={lightTextCard}>{cardTitle}</CardTitle>
 				<CardDescription>{description}</CardDescription>
-				<Link to={urlLinkBtn}>
-					<ButtonCard>{buttonLabel}</ButtonCard>
-				</Link>
+				<a href={urlLinkBtn} target="_blank" rel="noopener noreferrer">
+					<ButtonCard> <FaMapMarkedAlt /> {buttonLabel}</ButtonCard>
+				</a>
 			</Card>
 		</>
 	);
