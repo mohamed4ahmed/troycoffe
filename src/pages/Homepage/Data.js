@@ -29,7 +29,7 @@ export const feedback = {
 	headline: "Rate TROY's service.",
 	description:
 		" ! علي تحسن الخدمه لخدمتك بشكل افضل TROY  كل تعليق سوف يساعد",
-	buttonLabel: "Evaluate",
+	buttonLabel: "Evaluate and Comment",
 	urlLinkBtn: "/feedback",
 	imgStart: true,
 	img: feedBack,
@@ -46,7 +46,7 @@ export const special = {
 		id: "special",
 		headlineName: "menu",
 		headlineBtn: true,
-		headlineButtonName: "SEE ALL PRODUCTS CODE",
+		headlineButtonName: "SEE ALL MENU",
 		products: [
 			{
 				cardTitle: "Moka",

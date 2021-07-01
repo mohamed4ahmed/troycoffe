@@ -10,7 +10,7 @@ export const homeObjOne = {
 	headline: "This features is developing.",
 	description: "You can use this as soon as it possible.",
 	buttonLabel: "Home",
-	urlLinkBtn: "/",
+	urlLinkBtn: "/troy",
 	imgStart: "",
 	img: developingSvg,
 	alt: "developing",

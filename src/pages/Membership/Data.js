@@ -11,7 +11,7 @@ export const homeObjOne = {
 	description:
 		"Please share information with us, many attractive offers are waiting for you.",
 	buttonLabel: "Registration",
-	urlLinkBtn: "/",
+	urlLinkBtn: "/troy",
 	img: membershipSvg,
 	alt: "developing",
 };

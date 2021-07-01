@@ -11,7 +11,7 @@ import {
 	SocialMediaWrap,
 	WebsiteRights,
 	WebsiteRightsText,
-	Tins,
+	Mohamed,
 } from "./Footer-style";
 
 const Footer = () => {
@@ -29,13 +29,13 @@ const Footer = () => {
 						</WebsiteRightsText>
 						<WebsiteRightsText>
 							Design by :{" "}
-							<Tins
+							<Mohamed
 								href="https://mohamed4ahmed.github.io/Temps/"
 								target="_blank"
 								aria-label="Facebook"
 							>
 								Mohamed 
-							</Tins>
+							</Mohamed>
 						</WebsiteRightsText>
 					</WebsiteRights>
 					<SocialIcons>

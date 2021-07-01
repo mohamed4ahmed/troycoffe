@@ -31,7 +31,7 @@ export const Grab = {
 	phone: "Offer: 10% discount for orders over 100k",
 	// email: "",
 	buttonLabel: "Order now",
-	urlLinkBtn: "https://www.facebook.com/TROYcafeee",    
+	urlLinkBtn: "https://www.messenger.com/t/127944922117493/?messaging_source=source%3Apages%3Amessage_shortlink",    
 	img: GrabI,
 	alt: "grab",
 };
@@ -50,7 +50,7 @@ export const Loship = {
 	phone: "Offer: free shipping for orders under 1.9km",
 	// email: "",
 	buttonLabel: "Order now",
-	urlLinkBtn: "https://www.facebook.com/TROYcafeee", 
+	urlLinkBtn: "https://www.messenger.com/t/127944922117493/?messaging_source=source%3Apages%3Amessage_shortlink", 
 	img: LoshipI,
 	alt: "grab",
 };
