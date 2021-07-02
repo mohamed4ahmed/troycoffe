@@ -29,7 +29,7 @@ export const feedback = {
 	headline: "Rate TROY's service.",
 	description:
 		" ! علي تحسن الخدمه لخدمتك بشكل افضل TROY  كل تعليق سوف يساعد",
-	buttonLabel: "Evaluate and Comment",
+	buttonLabel: "Evaluate and comment",
 	urlLinkBtn: "/feedback",
 	imgStart: true,
 	img: feedBack,
@@ -53,7 +53,7 @@ export const special = {
 				img: moka,
 				description: "22.00 LE",
 
-				urlLinkBtn: "/products",
+				urlLinkBtns: "/products",
 				newProduct: true,
 				trend: true,
 			},
@@ -62,7 +62,7 @@ export const special = {
 				img: espressoDouble,
 				description: "15.00 LE",
 
-				urlLinkBtn: "/products",
+				urlLinkBtns: "/products",
 				trend: true,
 			},
 			{
@@ -70,7 +70,7 @@ export const special = {
 				img: choclateMilkshake,
 				description: "25.00 LE",
 
-				urlLinkBtn: "/products",
+				urlLinkBtns: "/products",
 				newProduct: true,
 			},
 			{
@@ -78,7 +78,7 @@ export const special = {
 				img: blueberry,
 				description: "18.00 LE",
 
-				urlLinkBtn: "/products",
+				urlLinkBtns: "/products",
 				trend: true,
 			},
 			{
@@ -86,7 +86,7 @@ export const special = {
 				img: iceMars,
 				description: "25.00 LE",
 
-				urlLinkBtn: "/products",
+				urlLinkBtns: "/products",
 				trend: true,
 			},
 			{
@@ -94,7 +94,7 @@ export const special = {
 				img: wafelFwakh,
 				description: "40.00 LE",
 
-				urlLinkBtn: "/products",
+				urlLinkBtns: "/products",
 				trend: true,
 			},
 		],

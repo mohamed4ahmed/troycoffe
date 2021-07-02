@@ -41,8 +41,9 @@ const Product = ({
 				</CardImage>
 				<CardTitle lightTextCard={lightTextCard}>{cardTitle}</CardTitle>
 				<CardDescription>{description}</CardDescription>
-				<a href={urlLinkBtn} target="_blank" rel="noopener noreferrer">
-					<ButtonCard> <FaMapMarkedAlt /> {buttonLabel}</ButtonCard>
+				
+				<a href={urlLinkBtn} target="_blank" aria-label="Facebook" rel="noreferrer">
+					<ButtonCard>{buttonLabel} <FaMapMarkedAlt /> </ButtonCard>
 				</a>
 			</Card>
 		</>

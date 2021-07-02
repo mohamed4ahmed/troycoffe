@@ -76,7 +76,7 @@ export  const products = {
 	lightBg: false,
 	lightText: true,
 	lightTextCard: false,
-	buttonLabel: "Order By Messenger",
+	buttonLabel: "Order",
 	productList: [
 		{
 			id: "special",
