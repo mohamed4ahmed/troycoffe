@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Button } from "../../GlobalStyle";
-import { FaMapMarkedAlt } from "react-icons/fa";
+import { FaFacebookMessenger, FaMapMarkedAlt } from "react-icons/fa";
 import {
 	InfoSec,
 	InfoRow,
@@ -31,6 +31,7 @@ const StoreMaps = ({
 	start,
 	img,
 	alt,
+	home,
 }) => {
 	return (
 		<>
@@ -51,7 +52,7 @@ const StoreMaps = ({
 								</Subtitle>
 								<a href={urlLinkBtn} target="_blank" rel="noopener noreferrer">
 									<Button big fontBig primary={primary}>
-										<FaMapMarkedAlt /> {buttonLabel}
+									{home ?  <FaFacebookMessenger /> : <FaMapMarkedAlt />}	 {buttonLabel}
 									</Button>
 								</a>
 							</TextWrapper>

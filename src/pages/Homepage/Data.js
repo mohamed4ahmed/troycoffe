@@ -25,6 +25,7 @@ export const feedback = {
 	lightTopLine: false,
 	lightText: true,
 	lightTextDesc: true,
+	home : true,
 	topLine: "TROY",
 	headline: "Rate TROY's service.",
 	description:

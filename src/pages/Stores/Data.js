@@ -34,6 +34,7 @@ export const Grab = {
 	urlLinkBtn: "https://www.messenger.com/t/127944922117493/?messaging_source=source%3Apages%3Amessage_shortlink",    
 	img: GrabI,
 	alt: "grab",
+	home: true ,
 };
 
 export const Loship = {
@@ -53,5 +54,6 @@ export const Loship = {
 	urlLinkBtn: "https://www.messenger.com/t/127944922117493/?messaging_source=source%3Apages%3Amessage_shortlink", 
 	img: LoshipI,
 	alt: "grab",
+	home: true,
 };
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Container, Button } from "../../GlobalStyle";
-import {FaComment} from "react-icons/fa"
+import { FaCommentDots} from "react-icons/fa";
 import {
 	InfoSec,
 	InfoRow,
@@ -28,6 +28,7 @@ const InfoSection = ({
 	img,
 	alt,
 	start,
+	home,
 }) => {
 	return (
 		<>
@@ -36,12 +37,12 @@ const InfoSection = ({
 					<InfoRow imgStart={imgStart}>
 						<InfoColumn>
 							<TextWrapper>
-								<TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
+								<TopLine lightTopLine={lightTopLine}>{topLine}   </TopLine>
 								<Heading lightText={lightText}>{headline}</Heading>
 								<Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
 								<Link to={urlLinkBtn}>
 									<Button big fontBig primary={primary}>
-										{buttonLabel}  <FaComment /> 
+										{buttonLabel}  {home ?  <FaCommentDots /> : null} 
 									</Button>
 								</Link>
 							</TextWrapper>
