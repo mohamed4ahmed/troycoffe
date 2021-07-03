@@ -49,52 +49,58 @@ export const special = {
 		headlineButtonName: "SEE ALL MENU",
 		products: [
 			{
+				home :true,
 				cardTitle: "Moka",
 				img: moka,
 				description: "22.00 LE",
 
-				urlLinkBtns: "/products",
+				urlLinkBtn: "/products",
 				newProduct: true,
 				trend: true,
 			},
 			{
+				home :true,
 				cardTitle: "Double Espresso",
 				img: espressoDouble,
 				description: "15.00 LE",
 
-				urlLinkBtns: "/products",
+				urlLinkBtn: "/products",
 				trend: true,
 			},
 			{
+				home :true,
 				cardTitle: "MilkShake Chocolate",
 				img: choclateMilkshake,
 				description: "25.00 LE",
 
-				urlLinkBtns: "/products",
+				urlLinkBtn: "/products",
 				newProduct: true,
 			},
 			{
+				home :true,
 				cardTitle: "Blueberry",
 				img: blueberry,
 				description: "18.00 LE",
 
-				urlLinkBtns: "/products",
+				urlLinkBtn: "/products",
 				trend: true,
 			},
 			{
+				home :true,
 				cardTitle: "Ice Mars",
 				img: iceMars,
 				description: "25.00 LE",
 
-				urlLinkBtns: "/products",
+				urlLinkBtn: "/products",
 				trend: true,
 			},
 			{
+				home :true,
 				cardTitle: "Fruit Waffle",
 				img: wafelFwakh,
 				description: "40.00 LE",
 
-				urlLinkBtns: "/products",
+				urlLinkBtn: "/products",
 				trend: true,
 			},
 		],

@@ -8,7 +8,7 @@ import logoImg from "../../../assets/img/IMG-20210617-WA0068.jpg";
 const Map = () => {
 
 	const position = [30.973947,31.181758];
-	const zoom = 18;
+	const zoom = 15;
 	return (
 		<div className="map">
 			<LeafletMap center={position} zoom={zoom}>

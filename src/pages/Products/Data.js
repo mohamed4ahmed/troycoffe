@@ -81,7 +81,7 @@ export  const products = {
 		{
 			id: "special",
 			headlineName: "Highlights",
-
+			
 			products: [
 				{
 					cardTitle: "Hot Moka",

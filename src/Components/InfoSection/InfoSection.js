@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Container, Button } from "../../GlobalStyle";
+import {FaComment} from "react-icons/fa"
 import {
 	InfoSec,
 	InfoRow,
@@ -40,7 +41,7 @@ const InfoSection = ({
 								<Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
 								<Link to={urlLinkBtn}>
 									<Button big fontBig primary={primary}>
-										{buttonLabel}
+										{buttonLabel}  <FaComment /> 
 									</Button>
 								</Link>
 							</TextWrapper>

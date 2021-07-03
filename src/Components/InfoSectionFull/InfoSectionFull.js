@@ -1,6 +1,7 @@
 import React  from "react";
 import { Link } from "react-router-dom";
 import { Container, Button } from "../../GlobalStyle";
+import {FaCoffee} from "react-icons/fa";
 
 import {
 	InfoSec,
@@ -33,7 +34,7 @@ const InfoSectionFull = ({
 							<Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
 							<Link to={urlLinkBtn}>
 								<Button big fontBig primary={primary}>
-									{buttonLabel}
+									{buttonLabel} <FaCoffee />
 								</Button>
 							</Link>
 						</TextWrapper>

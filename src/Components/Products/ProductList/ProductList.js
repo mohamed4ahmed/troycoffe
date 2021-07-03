@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
 import Product from "./Product/Product";
+import {FaCoffee} from "react-icons/fa";
 import {
 	Products,
 	Headline,
@@ -40,7 +41,7 @@ const ProductList = ({
 					<HeadlineBtn>
 						<HeadlineBtnLink to="/products">
 							<Button primary fontBig>
-								{headlineButtonName}
+								{headlineButtonName} <FaCoffee />
 							</Button>
 						</HeadlineBtnLink>
 					</HeadlineBtn>
@@ -59,6 +60,7 @@ const ProductList = ({
 							buttonLabel={buttonLabel}
 							trend={product.trend}
 							newProduct={product.newProduct}
+							home={product.home}
 						/>
 					);
 				})}
