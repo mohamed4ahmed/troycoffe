@@ -6,6 +6,7 @@ const Stores = () => {
 	useEffect(() => {
 		document.title = "Our stores - TROY - Coffee & Tea";
 	}, []);
+
 	return (
 		<>
 			<StoreMaps {...Maps} />

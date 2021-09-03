@@ -1,3 +1,14 @@
+import one from "../../assets/img/products/food/one.jpg";
+import two from "../../assets/img/products/food/two.jpg";
+import three from "../../assets/img/products/food/three.jpg";
+import four from "../../assets/img/products/food/four.jpg";
+import five from "../../assets/img/products/food/five.jpg";
+import six from "../../assets/img/products/food/six.jpg";
+import seven from "../../assets/img/products/food/seven.jpg";
+import eight from "../../assets/img/products/food/eight.jpg";
+import nine from "../../assets/img/products/food/nine.jpg";
+import ten from "../../assets/img/products/food/ten.jpg";
+import eleven from "../../assets/img/products/food/eleven.jpg";
 import amricanCoffe from "../../assets/img/products/hot-Drink/amrican-coffe.jpg"; 
 import capacieno from "../../assets/img/products/hot-Drink/capacieno.jpg"; 
 import coffeFlaver from "../../assets/img/products/hot-Drink/coffe-flaver.jpg"; 
@@ -82,7 +93,31 @@ export  const products = {
 			id: "special",
 			headlineName: "Highlights",
 			
-			products: [
+			products: [  
+				{
+					cardTitle: "Meat Burger",
+					img: one,
+					description: "25.00 LE",
+	
+					urlLinkBtn: "https://www.messenger.com/t/127944922117493/?messaging_source=source%3Apages%3Amessage_shortlink",
+					trend: true,
+				},
+				{
+					cardTitle: "Broasted chicken",
+					img: two,
+					description: "30.00 LE",
+	
+					urlLinkBtn: "https://www.messenger.com/t/127944922117493/?messaging_source=source%3Apages%3Amessage_shortlink",
+					trend: true,
+				},
+				{
+					cardTitle: "Chicken burger",
+					img: three,
+					description: "25.00 LE",
+	
+					urlLinkBtn: "https://www.messenger.com/t/127944922117493/?messaging_source=source%3Apages%3Amessage_shortlink",
+					trend: true,
+				} ,
 				{
 					cardTitle: "Hot Moka",
 					img: moka,
@@ -131,6 +166,94 @@ export  const products = {
 
 					urlLinkBtn: "https://www.messenger.com/t/127944922117493/?messaging_source=source%3Apages%3Amessage_shortlink",
 					trend: true,
+				},
+			],
+		}, 	{
+			id: "food",
+			headlineName: "Food",
+			products: [
+				{
+					cardTitle: "Meat Burger",
+					img: one,
+					description: "25.00 LE",
+
+					urlLinkBtn: "https://www.messenger.com/t/127944922117493/?messaging_source=source%3Apages%3Amessage_shortlink",
+					trend: true,
+				},
+				{
+					cardTitle: "Broasted chicken",
+					img: two,
+					description: "30.00 LE",
+
+					urlLinkBtn: "https://www.messenger.com/t/127944922117493/?messaging_source=source%3Apages%3Amessage_shortlink",
+					trend: true,
+				},
+				{
+					cardTitle: "Chicken burger",
+					img: three,
+					description: "25.00 LE",
+
+					urlLinkBtn: "https://www.messenger.com/t/127944922117493/?messaging_source=source%3Apages%3Amessage_shortlink",
+					trend: true,
+				},
+				{
+					cardTitle: "Chicken pizza",
+					img: four,
+					description: "25.00 LE",
+
+					urlLinkBtn: "https://www.messenger.com/t/127944922117493/?messaging_source=source%3Apages%3Amessage_shortlink",
+				},
+				{
+					cardTitle: "Small Broasted",
+					img: five,
+					description: "25.00 LE",
+
+					urlLinkBtn: "https://www.messenger.com/t/127944922117493/?messaging_source=source%3Apages%3Amessage_shortlink",
+				},
+				{
+					cardTitle: "Burgers",
+					img: six,
+					description: "25.00 LE",
+
+					urlLinkBtn: "https://www.messenger.com/t/127944922117493/?messaging_source=source%3Apages%3Amessage_shortlink",
+					trend: true,
+				},
+				{
+					cardTitle: "Chiken Faheta",
+					img: seven,
+					description: "25.00 LE",
+
+					urlLinkBtn: "https://www.messenger.com/t/127944922117493/?messaging_source=source%3Apages%3Amessage_shortlink",
+					trend: true,
+
+				},
+				{
+					cardTitle: "Shawarma Chicken",
+					img: eight,
+					description: "25.00 LE",
+
+					urlLinkBtn: "https://www.messenger.com/t/127944922117493/?messaging_source=source%3Apages%3Amessage_shortlink",
+				},
+				{
+					cardTitle: "Shawarma Meat",
+					img: nine,
+					description: "25.00 LE",
+
+					urlLinkBtn: "https://www.messenger.com/t/127944922117493/?messaging_source=source%3Apages%3Amessage_shortlink",
+				},
+				{
+					cardTitle: "Cheese pizza",
+					img: ten,
+					description: "25.00 LE",
+
+					urlLinkBtn: "https://www.messenger.com/t/127944922117493/?messaging_source=source%3Apages%3Amessage_shortlink",
+				},
+				{
+					cardTitle: "Broasted chicken spicy",
+					img: eleven,
+					description: "25.00 LE",
+
+					urlLinkBtn: "https://www.messenger.com/t/127944922117493/?messaging_source=source%3Apages%3Amessage_shortlink",
 				},
 			],
 		},

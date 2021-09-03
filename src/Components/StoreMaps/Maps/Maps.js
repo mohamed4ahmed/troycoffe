@@ -3,7 +3,7 @@ import { MapContainer as LeafletMap, TileLayer, Marker, Popup ,Tooltip } from 'r
 import "./Maps.css";
 import "leaflet/dist/leaflet.css";
 import { iconTroy } from "./IconMarker";
-import logoImg from "../../../assets/img/IMG-20210617-WA0068.jpg";
+import logoImg from "../../../assets/img/logoImg.jpg";
 
 const Map = () => {
 

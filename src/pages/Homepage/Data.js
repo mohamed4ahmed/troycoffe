@@ -6,6 +6,10 @@ import choclateMilkshake from "../../assets/img/products/Milk-Shake/choclate-mil
 import blueberry from "../../assets/img/products/juice/blueberry.jpg" ; 
 import iceMars from "../../assets/img/products/Milk-Shake/ice-mars.jpg" ; 
 import wafelFwakh from "../../assets/img/products/wafel/wafel-fwakh.jpg"; 
+import one from "../../assets/img/products/food/one.jpg";
+import two from "../../assets/img/products/food/two.jpg";
+import three from "../../assets/img/products/food/three.jpg";
+import five from "../../assets/img/products/food/five.jpg";
 
 export const hero = {
 	primary: true,
@@ -49,6 +53,46 @@ export const special = {
 		headlineBtn: true,
 		headlineButtonName: "SEE ALL MENU",
 		products: [
+			{
+				home :true,
+				cardTitle: "Meat Burger",
+				img: one,
+				description: "25.00 LE",
+
+				urlLinkBtn: "/products",
+				newProduct: true,
+				trend: true,
+			},
+			{
+				home :true,
+				cardTitle: "Broasted chicken",
+				img: two,
+				description: "30.00 LE",
+
+				urlLinkBtn: "/products",
+				newProduct: true,
+				trend: true,
+			},
+			{
+				home :true,
+				cardTitle: "Chicken burger",
+				img: three,
+				description: "25.00 LE",
+
+				urlLinkBtn: "/products",
+				newProduct: true,
+				trend: true,
+			},
+			{
+				home :true,
+				cardTitle: "Zinger",
+				img: five,
+				description: "25.00 LE",
+
+				urlLinkBtn: "/products",
+				newProduct: true,
+				trend: true,
+			},
 			{
 				home :true,
 				cardTitle: "Moka",

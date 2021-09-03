@@ -25,9 +25,9 @@ export const Grab = {
 	lightTextDesc: true,
 	maps: false,
 	topLine: "Troy Coffee & Tea",
-	headline: "Grab Food",
+	headline: "Order Food & Drinks",
 	address:
-		'Order your drinks online and Grab has them delivered to your door with "speedy" delivery',
+		'Order your food and drinks online and TROY has them delivered to your door with "speedy" delivery',
 	phone: "Offer: 10% discount for orders over 100k",
 	// email: "",
 	buttonLabel: "Order now",
@@ -45,9 +45,8 @@ export const Loship = {
 	lightTextDesc: true,
 	maps: false,
 	topLine: "Troy Coffee & Tea",
-	headline: "Loship",
-	address:
-		'Order your drinks online and Loship has them delivered to your door with a "speedy" delivery service',
+	headline: "Talabat",
+	address: 'Order your drinks and food online and Talabat has them delivered to your door with a "speedy" delivery service',
 	phone: "Offer: free shipping for orders under 1.9km",
 	// email: "",
 	buttonLabel: "Order now",
